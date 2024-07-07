@@ -1,0 +1,24 @@
+.button {
+  background-color: var(--button);
+  border-radius: 200px;
+  border: none;
+  outline: transparent;
+  height: 56px;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #fff;
+
+  transition: background-color var(--duration) var(--time-function);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--button-active);
+}

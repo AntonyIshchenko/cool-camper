@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  padding: 12px 18px;
+  height: 44px;
+
+  background: var(--block-features);
+  mix-blend-mode: multiply;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: var(--main);
+}
+
+.icon {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  text-transform: capitalize;
+}

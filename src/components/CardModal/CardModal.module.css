@@ -1,0 +1,139 @@
+.modal {
+  background: #fff;
+  position: absolute;
+  width: 982px;
+  border-radius: 20px;
+  padding: 40px 32px 40px 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 85%;
+  border: none;
+  overflow: auto;
+}
+
+.overlay {
+  background-color: rgba(17, 18, 19, 0.4);
+}
+
+.overlayIsOpen {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  color: var(--main);
+  margin-bottom: 8px;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  color: var(--main);
+  margin-bottom: 24px;
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ratingIconContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--rating);
+}
+
+.ratingText {
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--main);
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.locationIconContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  stroke: var(--main);
+  fill: #fff;
+}
+
+.locationText {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--main);
+}
+
+.closeButton {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  stroke: var(--main);
+}
+
+.description {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text);
+  margin-bottom: 44px;
+}
+
+.imageList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.thumb {
+  border-radius: 10px;
+  width: 282px;
+  height: 310px;
+  overflow: hidden;
+}
+
+.thumb img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tabContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

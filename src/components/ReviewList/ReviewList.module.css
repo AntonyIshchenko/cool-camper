@@ -1,0 +1,54 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 430px;
+}
+
+.header {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.headerLetter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background-color: var(--block-features);
+  width: 60px;
+  height: 60px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  color: var(--button);
+  text-transform: capitalize;
+}
+
+.comment {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text);
+}
+
+.name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 133%;
+  color: var(--main);
+  margin-bottom: 4px;
+}
+.ratingList {
+  display: flex;
+  gap: 4px;
+}
+.ratingTrue {
+  fill: var(--rating);
+}
+
+.ratingFalse {
+  fill: var(--block-features);
+}
